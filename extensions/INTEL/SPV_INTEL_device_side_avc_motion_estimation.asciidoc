@@ -149,8 +149,8 @@ OpSubgroupAvcImeEvaluateWithDualReferenceStreaminoutINTEL
 OpSubgroupAvcImeConvertToMceResultINTEL
 OpSubgroupAvcImeGetSingleReferenceStreaminINTEL
 OpSubgroupAvcImeGetDualReferenceStreaminINTEL
-SubgroupAvcImeStripSingleReferenceStreamoutINTEL
-SubgroupAvcImeStripDualReferenceStreamoutINTEL
+OpSubgroupAvcImeStripSingleReferenceStreamoutINTEL
+OpSubgroupAvcImeStripDualReferenceStreamoutINTEL
 OpSubgroupAvcImeGetStreamoutSingleReferenceMajorShapeMotionVectorsINTEL
 OpSubgroupAvcImeGetStreamoutSingleReferenceMajorShapeDistortionsINTEL
 OpSubgroupAvcImeGetStreamoutSingleReferenceMajorShapeReferenceIdsINTEL
@@ -295,7 +295,7 @@ OpTypeAvcSicResultINTEL
 |OpSubgroupAvcImeEvaluateWithSingleReferenceINTEL | 5757
 |OpSubgroupAvcImeEvaluateWithDualReferenceINTEL | 5758
 |OpSubgroupAvcImeEvaluateWithSingleReferenceStreaminINTEL | 5759
-|SubgroupAvcImeEvaluateWithDualReferenceStreaminINTEL | 5760
+|OpSubgroupAvcImeEvaluateWithDualReferenceStreaminINTEL | 5760
 |OpSubgroupAvcImeEvaluateWithSingleReferenceStreamoutINTEL | 5761
 |OpSubgroupAvcImeEvaluateWithDualReferenceStreamoutINTEL | 5762
 |OpSubgroupAvcImeEvaluateWithSingleReferenceStreaminoutINTEL | 5763
@@ -303,8 +303,8 @@ OpTypeAvcSicResultINTEL
 |OpSubgroupAvcImeConvertToMceResultINTEL | 5765
 |OpSubgroupAvcImeGetSingleReferenceStreaminINTEL | 5766
 |OpSubgroupAvcImeGetDualReferenceStreaminINTEL | 5767
-|SubgroupAvcImeStripSingleReferenceStreamoutINTEL | 5768
-|SubgroupAvcImeStripDualReferenceStreamoutINTEL | 5769
+|OpSubgroupAvcImeStripSingleReferenceStreamoutINTEL | 5768
+|OpSubgroupAvcImeStripDualReferenceStreamoutINTEL | 5769
 |OpSubgroupAvcImeGetStreamoutSingleReferenceMajorShapeMotionVectorsINTEL | 5770
 |OpSubgroupAvcImeGetStreamoutSingleReferenceMajorShapeDistortionsINTEL | 5771
 |OpSubgroupAvcImeGetStreamoutSingleReferenceMajorShapeReferenceIdsINTEL | 5772
@@ -3198,7 +3198,7 @@ Distortion =
 
 | Capability: + 
 *SubgroupAvcMotionEstimationINTEL, SubgroupAvcMotionEstimationChromaINTEL* +
-| 7 | 5799 | <id> Result Type | Result <id> | <id> Chroma Mode Base Penalty | <id> Payload
+| 5 | 5799 | <id> Result Type | Result <id> | <id> Chroma Mode Base Penalty | <id> Payload
 |=====
 
 ===== Miscellaneous property configuration instructions
